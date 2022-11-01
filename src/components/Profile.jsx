@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../img/profile-img.png";
+import profileImg from "../img/profile-img.jpeg";
 import arrow from "../img/arrow.png";
 import slack from "../img/slack-icon.jpeg";
 import profileimage from "../img/profile-image.png";
@@ -14,13 +14,13 @@ const Profile = () => {
 
             <div>
               <img src={arrow} alt="arrow" className="arrow" />
-              <h2 className="h2">Raymond Tse</h2>
+              <h2 className="h2">Onyeka Asumah</h2>
 
               <div className="link-section">
                 <div>
                   <button id="twitter" className="twitter">
                     <a
-                      href="https://twitter.com/coderayjs/"
+                      href="https://twitter.com/yekasumah/"
                       target="_blank"
                       rel="noreferrer"
                     >
