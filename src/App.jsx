@@ -1,10 +1,9 @@
-import React from "react";
- import Footer from "./components/Footer";
+import Footer from "./components/Footer";
  import Profile from "./components/Profile";
  import "./App.css";
  import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
  import { Link } from "react-router-dom";
- import Contact from "./Routes/Contact";
+ import Contact from "./components/Contact";
 
  const router = createBrowserRouter([
    {
@@ -24,9 +23,9 @@ import React from "react";
  ]);
 
 
- function App() {
-   return <RouterProvider router={router} />;
 
- }
+ function App() {
+  return <RouterProvider router={router} />;
+}
 
 export default App;

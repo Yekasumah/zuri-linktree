@@ -225,8 +225,8 @@ padding: 64px 0px 96px;
 gap: 64px;
 
 position: absolute;
-width: 1440px;
-height: 960px;
+width: 100%;
+height: 100%;
 left: 0px;
 top: 0px;
 
@@ -533,9 +533,13 @@ background-color: #ffffff; */
       align-items: flex-start;
     }
   }
+.contact_names{
+  flex-direction: column;
+}
 
-
-
+#first_name, #last_name{
+  
+}
 .footer-text{
   /* width: 832.28px;
   height: 24px; */
