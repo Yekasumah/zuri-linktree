@@ -3,7 +3,7 @@ import profileImg from "../img/profile-img.jpeg";
 import arrow from "../img/arrow.png";
 import slack from "../img/slack-icon.jpeg";
 import profileimage from "../img/profile-image.png";
-
+import {Link} from "react-router-dom"
 const Profile = () => {
   return (
     <div className="app">
@@ -87,7 +87,11 @@ const Profile = () => {
                     </button>
                   </div>
                 </div>
-
+                <div>
+                    <button id="contact" className="contact">
+                    <Link to="/contact">Contact Me</Link>
+                    </button>
+                  </div>
                 <div className="social-section">
                   <img src={slack} alt="slack" className="slack" id="slack" />
                   <img
