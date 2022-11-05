@@ -533,13 +533,8 @@ background-color: #ffffff; */
       align-items: flex-start;
     }
   }
-.contact_names{
-  flex-direction: column;
-}
 
-#first_name, #last_name{
   
-}
 .footer-text{
   /* width: 832.28px;
   height: 24px; */
