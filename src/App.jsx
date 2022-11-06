@@ -18,7 +18,10 @@ import Footer from "./components/Footer";
 
    {
      path: "/contact",
-     element: <Contact />
+     element: 
+      <Contact />,
+    
+      
    }
  ]);
 
