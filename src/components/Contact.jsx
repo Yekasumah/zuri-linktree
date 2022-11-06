@@ -99,7 +99,7 @@ export default function Contact() {
       </div>
       <h1>{contact.title}</h1>
       <br />
-      <p>{contact.titleFoot}</p>
+      <h8>{contact.titleFoot}</h8>
       <br />
 
       <form onSubmit={handleSubmit}>
